@@ -50,23 +50,48 @@
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="400dp"
-        android:layout_height="180dp"
+        android:layout_width="900dp"
+        android:layout_height="193dp"
         android:backgroundTint="#D9006078"
-        android:layout_marginTop="80dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         app:cardCornerRadius="10dp">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="340dp"
-        android:layout_height="170dp"
+        android:layout_width="345dp"
+        android:layout_height="180dp"
         android:backgroundTint="#D90082A3"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="3dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="8dp"
         app:cardCornerRadius="10dp">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$ 0.0"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Available Balance"
+                android:layout_marginTop="70dp"
+                android:textStyle="normal"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:textSize="18sp"/>
+
+
+
+        </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
 
