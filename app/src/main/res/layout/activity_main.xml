@@ -109,11 +109,12 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="90dp"
-            android:backgroundTint="#D9070404"
+            android:backgroundTint="#D9FFFFFF"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
             app:cardCornerRadius="10dp">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -121,26 +122,34 @@
                 android:padding="10dp"
                 android:orientation="horizontal">
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    >
 
-            <LinearLayout
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/btnShare"
-                android:layout_gravity="center"
-                android:padding="10dp">
-
-                <ImageView
+                <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:background="@drawable/add_money" />
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/add_money"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add Money"
+                        android:textColor="#D90196BC"
+                        android:layout_marginTop="34dp"
+                        android:layout_marginLeft="10dp"/>
+
+                </FrameLayout>
 
             </LinearLayout>
-            </FrameLayout>
 
             </LinearLayout>
 
