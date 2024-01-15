@@ -10,6 +10,7 @@
         android:id="@+id/Linear_Layout_1"
         android:layout_width="match_parent"
         android:layout_height="180dp"
+        android:orientation="vertical"
         android:background="#D90196BC">
 
 
@@ -48,6 +49,29 @@
 
     </LinearLayout>
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:backgroundTint="#D9006078"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="170dp"
+        android:backgroundTint="#D90082A3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        app:cardCornerRadius="10dp">
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
     <androidx.core.widget.NestedScrollView
         android:layout_below="@id/Linear_Layout_1"
         android:layout_width="match_parent"
@@ -65,7 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:backgroundTint="#D90196BC"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="90dp"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
             app:cardCornerRadius="10dp">
