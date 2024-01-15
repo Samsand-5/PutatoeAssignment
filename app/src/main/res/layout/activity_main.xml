@@ -54,7 +54,6 @@
             app:cardCornerRadius="10dp">
 
             <LinearLayout
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -125,7 +124,7 @@
                 <LinearLayout
                     android:layout_width="55dp"
                     android:layout_height="match_parent"
-                    >
+                    android:layout_gravity="center">
 
                 <FrameLayout
                     android:layout_width="match_parent"
@@ -150,6 +149,64 @@
                 </FrameLayout>
 
             </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/add_money"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Money"
+                            android:textColor="#D90196BC"
+                            android:layout_marginTop="34dp"
+                            android:layout_marginLeft="10dp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/send_money_bank"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add Money"
+                            android:textColor="#D90196BC"
+                            android:layout_marginTop="34dp"
+                            android:layout_marginLeft="10dp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
 
             </LinearLayout>
 
